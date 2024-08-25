@@ -22,9 +22,14 @@ header h2 {
     font-weight: normal;
 }
 
+nav {
+    padding: 10px;
+}
+
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 10px;
+    font-weight: bold;
 }
 
 nav ul li {
