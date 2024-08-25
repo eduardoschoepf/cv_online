@@ -1,95 +1,93 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; /* Define a fonte principal como Arial, com fallback para sans-serif */
+    line-height: 1.6; /* Define a altura da linha para facilitar a leitura */
+    margin: 0; /* Remove as margens padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+    background-color: #f4f4f4; /* Define a cor de fundo do body como cinza claro */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #333; /* Define a cor de fundo do cabeçalho como cinza escuro */
+    color: #fff; /* Define a cor do texto do cabeçalho como branco */
+    padding: 10px 0; /* Define o padding superior e inferior do cabeçalho */
+    text-align: center; /* Centraliza o texto do cabeçalho */
 }
 
-header h1 {
-    margin: 0;
+header h1, header h2 {
+    margin: 0; /* Remove as margens dos títulos h1 e h2 no cabeçalho */
 }
 
 header h2 {
-    margin: 0;
-    font-weight: normal;
+    font-weight: normal; /* Define o peso da fonte do h2 como normal */
 }
 
 nav {
-    padding: 10px;
+    padding: 10px; /* Adiciona padding ao contêiner de navegação */
 }
 
 nav ul {
-    list-style: none;
-    padding: 10px;
-    font-weight: bold;
+    list-style: none; /* Remove a marcação padrão da lista não ordenada */
+    padding: 10px; /* Adiciona padding à lista de navegação */
+    font-weight: bold; /* Define o texto da navegação como negrito */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 10px; /* Adiciona margem à esquerda e direita dos itens da lista */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff; /* Define a cor dos links de navegação como branco */
+    text-decoration: none; /* Remove a sublinha dos links */
 }
 
 section {
-    padding: 20px;
-    margin: 20px 80px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adiciona padding às seções */
+    margin: 20px 80px; /* Adiciona margem superior/inferior e lateral às seções */
+    background-color: #fff; /* Define a cor de fundo das seções como branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve em torno das seções */
 }
 
 section h2 {
-    margin-top: 0;
+    margin-top: 0; /* Remove a margem superior dos títulos h2 dentro das seções */
 }
 
-
 form {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Usa flexbox para organizar os elementos do formulário */
+    flex-direction: column; /* Define a direção dos elementos do formulário como uma coluna */
 }
 
 form label {
-    margin: 10px 0 5px;
+    margin: 10px 0 5px; /* Adiciona margem aos rótulos dos inputs */
 }
 
 form input, form textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1em;
+    padding: 10px; /* Adiciona padding aos campos de input e textarea */
+    margin-bottom: 10px; /* Adiciona margem inferior aos inputs e textarea */
+    border: 1px solid #ccc; /* Define uma borda cinza clara nos campos de input e textarea */
+    border-radius: 5px; /* Arredonda as bordas dos campos de input e textarea */
+    font-size: 1em; /* Define o tamanho da fonte nos campos de input e textarea */
 }
 
 form button {
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
+    padding: 10px; /* Adiciona padding ao botão do formulário */
+    background-color: #333; /* Define a cor de fundo do botão como cinza escuro */
+    color: #fff; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+    cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
+    font-size: 1em; /* Define o tamanho da fonte do botão */
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #555; /* Altera a cor de fundo do botão ao passar o mouse sobre ele */
 }
 
 footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
+    text-align: center; /* Centraliza o texto no rodapé */
+    background-color: #333; /* Define a cor de fundo do rodapé como cinza escuro */
+    color: #fff; /* Define a cor do texto do rodapé como branco */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da página */
+    position: absolute; /* Define o rodapé como posicionado de forma absoluta */
+    width: 100%; /* Faz o rodapé ocupar toda a largura da página */
 }
